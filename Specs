@@ -1,0 +1,19 @@
+if (year is not divisible by 4) then (it is a common year)
+else if (year is not divisible by 100) then (it is a leap year)
+else if (year is not divisible by 400) then (it is a common year)
+else (it is a leap year)
+
+
+if (currentYear % 4 == 0){
+is leap year
+}
+if (currentYear % 400 == 0){
+is leap year
+}
+if (currentYear % 100 != 0){
+is leap year
+}
+else
+{
+is not leap year
+}
